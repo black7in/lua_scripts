@@ -10,3 +10,4 @@ _Anuncia a todo el mundo cuando tus jugadores se conecten!._
 
 ## Contacto 📞
 **Discord: elperroblack#3720**
+<img src="https://github.com/Black7in/lua_scripts/blob/main/LoginAnnounce/WoWScrnShot_062121_054508.jpg?raw=true" width="100%"></img> 
