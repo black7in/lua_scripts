@@ -17,4 +17,4 @@ _Coordenadas: x = -1604.93 y = 593.448 = 6.19837 orientation = 3.18011 map = 36_
 ## Contacto 📞
 **Discord: elperroblack#3720**
 
-<img src="https://github.com/Black7in/lua_scripts/blob/main/FallEvent/WoWScrnShot_071521_112129.jpg?raw=true" width="100%">
+<img src="https://github.com/Black7in/lua_scripts/blob/main/TNTRunChallenge/WoWScrnShot_071521_112129.jpg?raw=true" width="100%">
