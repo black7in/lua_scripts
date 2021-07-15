@@ -1,0 +1,1 @@
+insert into `gameobject_template` (`entry`, `type`, `displayId`, `name`, `size`) values('100000','5','5411','Circle of Calling','0.3');
