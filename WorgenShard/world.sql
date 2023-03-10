@@ -1,0 +1,1 @@
+UPDATE `item_template` SET `name` = 'Worgen Shard', `Quality` = 4, `spellid_1` = 73835, `spellcooldown_1` = 1000, `bonding` = 1, `description` = 'Transforms you into a speedy worgen.' WHERE (`entry` = 33146);

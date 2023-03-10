@@ -1,8 +1,6 @@
 # [LUA] Fall Event 🚀 
-## TRADUCTOR: [Español](README.md) | [English](README-EN.MD)
 
-### Para Trinitycore y Azerothcore 3.3.5a 🙌
-_Evento especial! cada 10 segundos una plataforma caerá junto con los participantes que esten sobre ella. [ver video](https://www.youtube.com/watch?v=t1TK3sLX_WE)_
+Evento especial! cada 10 segundos una plataforma caerá junto con los participantes que esten sobre ella. [ver video](https://www.youtube.com/watch?v=t1TK3sLX_WE)
 
 ## Cómo Instalar 🛠️
 * Copie y pegue el archivo FallEvent.lua en la carpeta lua_scripts del servidor.
@@ -15,8 +13,7 @@ _Evento especial! cada 10 segundos una plataforma caerá junto con los participa
 _Este código no esta optimizado al 100% pero funciona y es divertido :P._
 
 _Coordenadas: x = -8505.796 y = 2020.39 z = 104.75 orientation = 3.37 map = 1_
-
-## Contacto 📞
-**Discord: elperroblack#3720**
+<br />
+<br />
 
 <img src="https://github.com/Black7in/lua_scripts/blob/main/FallEvent/WoWScrnShot_070821_195501.jpg?raw=true" width="100%">

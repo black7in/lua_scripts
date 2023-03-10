@@ -1,40 +1,34 @@
 --[[
-    [LUA] TNT RUN EVENT World of Warcraft 3.3.5a
+    [LUA] TNT RUN EVENT Azerothcore/Trinitycore 3.3.5a
 ]]
 local gob = 100000
-local npc = 196
+local npc = 100000
 local status = false
 
-local function GenerarPlataformas(object)
-    local x = -1652.1350
-    local y = 568.9259
-    local z = 27.2826
-    local filas = 51
-    local columnas = 5
-    local pisos = 3
-    for j = 1, pisos, 1 do
-        for i = 1, filas, 1 do
-            for k = 1, columnas, 1 do
-                object:SummonGameObject( gob, x, y, z, 4.7022, 1800)
-                x = x + 1
+
+local function GenerarPlataformas( object )
+    local position_x = -1680.0
+    local position_y = 572.5
+    local postion_z = 27.0
+    local orientation = 3.20
+
+    local platformWidth = 1
+    local numCols = 40
+    local numRows = 40
+
+    local nivel = 3
+
+    for i = 1, nivel, 1 do
+        for i = 1, numRows, 1 do
+            for i = 1, numCols, 1 do
+                object:SummonGameObject( gob, position_x, position_y, postion_z, orientation, 1800)
+                position_y = position_y + platformWidth
             end
-            if i <= (filas / 2) - 0.5 - 1 then
-                x = -1652.1350 - i
-                y = 568.9259 + i
-                columnas = columnas + 2
-            elseif i == (filas / 2) - 0.5 then
-                x = -1652.1350 - (i - 1)
-                y = 568.9259 + i
-            elseif i == (filas / 2) - 0.5 + 1 then
-                x = -1652.1350 - (i - 2)
-                y = 568.9259 + i
-            else
-                x = -1652.1350 - filas + i + 1
-                y = 568.9259 + i
-                columnas = columnas - 2
-            end
+            position_y = 572.5
+            position_x = position_x + platformWidth
         end
-        z = z - 10
+        position_x = -1680.0
+        postion_z = postion_z - 10.0
     end
 end
 

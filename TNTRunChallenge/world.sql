@@ -1,1 +1,2 @@
-insert into `gameobject_template` (`entry`, `type`, `displayId`, `name`, `size`) values('100000','5','5411','Circle of Calling','0.3');
+INSERT INTO `gameobject_template` (`entry`, `type`, `displayId`, `name`, `size`) VALUES('100000','5','5411','Circle of Calling','0.3');
+INSERT INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `minlevel`, `maxlevel`, `faction`, `npcflag`, `scale`) VALUES('100000', '1070', 'Elemental', 'TNT RUN EVENT', '80', '80', '35', '1', '1.5');
