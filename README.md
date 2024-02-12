@@ -9,6 +9,6 @@ _Si quieres contactarme por cualquier motivo:_
 * Invitarme una cerveza 🍺. 
 * Pedirme algun script personalizado, etc 🤓.
 
-_No dudes para escribirme al Discord: black7in#3720_
+_No dudes para escribirme al Discord: black7in
 
 Con ❤️ por [Black7in.](https://github.com/Black7in) 😊
